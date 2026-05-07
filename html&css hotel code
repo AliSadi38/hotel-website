@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yazlık Otel</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="bootstrap-projem.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top"
+    >
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#home">Yazlık Otel</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Anasayfa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#rooms">Odalar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Galeri</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">İletişim</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header id="home" class="hero-section d-flex align-items-center text-white">
+      <div class="container text-center">
+        <h1 class="display-5 fw-bold">Yaz Tatilinin Keyfi Burada</h1>
+        <p class="lead mt-3">
+          Konforlu odalar, deniz manzarası ve sıcak hizmetle tatilinizi
+          unutulmaz kılıyoruz.
+        </p>
+        <a href="#rooms" class="btn btn-primary btn-lg mt-4"
+          >Odalarımıza Göz At</a
+        >
+      </div>
+    </header>
+
+    <main class="container py-5">
+      <section class="mb-5">
+        <div class="row align-items-center gy-4">
+          <div class="col-md-6">
+            <img
+              src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=800&h=500&fit=crop"
+              alt="Otel Girişi"
+              class="img-fluid rounded shadow-sm"
+            />
+          </div>
+          <div class="col-md-6">
+            <h2>Hoş Geldiniz</h2>
+            <p>
+              Yazlık Otel, denize çok yakın konumuyla rahat bir tatil için
+              ideal. Güler yüzlü personelimiz, temiz odalarımız ve keyifli
+              atmosferimizle sizi bekliyoruz.
+            </p>
+            <ul class="list-unstyled">
+              <li class="mb-2">✅ Deniz manzaralı odalar</li>
+              <li class="mb-2">✅ Ücretsiz Wi-Fi</li>
+              <li class="mb-2">✅ 24 saat resepsiyon</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="rooms" class="mb-5">
+        <h2 class="mb-4">Odalarımız</h2>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <div class="card room-card h-100">
+              <img
+                src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=600&h=400&fit=crop"
+                class="card-img-top"
+                alt="Standart Oda"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Standart Oda</h5>
+                <p class="card-text">
+                  Rahat ve şık dekore edilmiş oda, tek veya çift kişilik
+                  konaklama için uygundur.
+                </p>
+              </div>
+              <div class="card-footer bg-white border-top-0">
+                <span class="room-price">₺300 / gece</span>
+                <button
+                  class="btn btn-outline-primary btn-sm float-end"
+                  type="button"
+                >
+                  Rezervasyon
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card room-card h-100">
+              <img
+                src="denizmanzaralıoda.jpg"
+                class="card-img-top"
+                alt="Deniz Manzaralı Oda"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Deniz Manzaralı Oda</h5>
+                <p class="card-text">
+                  Geniş balkonu ve ferah iç mekanlarıyla deniz havasını içinize
+                  çekin.
+                </p>
+              </div>
+              <div class="card-footer bg-white border-top-0">
+                <span class="room-price">₺500 / gece</span>
+                <button
+                  class="btn btn-outline-primary btn-sm float-end"
+                  type="button"
+                >
+                  Rezervasyon
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card room-card h-100">
+              <img src="lükssuit.jpg" class="card-img-top" alt="Lüks Suit" />
+              <div class="card-body">
+                <h5 class="card-title">Lüks Suit</h5>
+                <p class="card-text">
+                  Aileler için geniş alan, ayrı oturma alanı ve modern banyosu
+                  ile ideal.
+                </p>
+              </div>
+              <div class="card-footer bg-white border-top-0">
+                <span class="room-price">₺750 / gece</span>
+                <button
+                  class="btn btn-outline-primary btn-sm float-end"
+                  type="button"
+                >
+                  Rezervasyon
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="gallery" class="mb-5">
+        <h2 class="mb-4">Galeri</h2>
+        <div class="row g-3">
+          <div class="col-md-4">
+            <img src="havuz.jpg" alt="Havuz" class="gallery-img rounded" />
+          </div>
+          <div class="col-md-4">
+            <img src="plaj.jpg" alt="Plaj" class="gallery-img rounded" />
+          </div>
+          <div class="col-md-4">
+            <img src="otel.jpg" alt="Otel" class="gallery-img rounded" />
+          </div>
+          <div class="col-md-4">
+            <img
+              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=400&fit=crop"
+              alt="Konuk"
+              class="gallery-img rounded"
+            />
+          </div>
+          <div class="col-md-4">
+            <img
+              src="https://images.unsplash.com/photo-1494787867949-a6e6e4d1caf0?w=600&h=400&fit=crop"
+              alt="İnsanlar"
+              class="gallery-img rounded"
+            />
+          </div>
+          <div class="col-md-4">
+            <img
+              src="balkon.jpg
+              alt="Balkon"
+              class="gallery-img rounded"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="mb-5">
+        <h2 class="mb-4">İletişim</h2>
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <div class="card contact-card shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title">Rezervasyon Formu</h5>
+                <form
+                  onsubmit="
+                    event.preventDefault();
+                    alert('Mesajınız gönderildi!');
+                    this.reset();
+                  "
+                >
+                  <div class="mb-3">
+                    <label class="form-label">Adınız</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Adınızı yazın"
+                      required
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label">E-posta</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="E-posta adresiniz"
+                      required
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label">Telefon</label>
+                    <input
+                      type="tel"
+                      class="form-control"
+                      placeholder="Telefon numaranız"
+                      required
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label">Mesaj</label>
+                    <textarea
+                      class="form-control"
+                      rows="4"
+                      placeholder="Ne istersiniz?"
+                      required
+                    ></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary w-100">
+                    Gönder
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card contact-card shadow-sm p-4">
+              <h5 class="mb-3">Bize Ulaşın</h5>
+              <p><strong>Adres:</strong> Sahil Caddesi 123, Yazlık Kasabası</p>
+              <p><strong>Telefon:</strong> +90 555 123 4567</p>
+              <p><strong>E-posta:</strong> info@yazlikotel.com</p>
+              <p><strong>Çalışma Saatleri:</strong> 7/24 Açık</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer bg-dark text-white py-4">
+      <div class="container text-center">
+        <p class="mb-0">&copy; 2026 Yazlık Otel. Tüm hakları saklıdır.</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
+                                                                            C S S      K I S M I  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f6fb;
+    color: #333;
+}
+
+.navbar-brand {
+    color: #1d3557 !important;
+}
+
+.nav-link {
+    color: #4a5568 !important;
+}
+
+.nav-link:hover {
+    color: #2b6cb0 !important;
+}
+
+.hero-section {
+    min-height: 70vh;
+    background-image: url('https://images.unsplash.com/photo-1501117716987-c8e3e2a68f0a?w=1400&h=800&fit=crop');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-section::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(30, 64, 175, 0.5);
+}
+
+.hero-section .container {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-section h1,
+.hero-section p,
+.hero-section .btn {
+    color: white;
+}
+
+.hero-section .btn {
+    background-color: #1982c4;
+    border: none;
+}
+
+.hero-section .btn:hover {
+    background-color: #0d6efd;
+}
+
+h2 {
+    font-weight: 700;
+    color: #1d3557;
+}
+
+.room-card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.room-card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.room-card .card-body {
+    padding: 1.5rem;
+}
+
+.room-price {
+    color: #1d4ed8;
+    font-weight: 700;
+}
+
+.gallery-img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 12px 25px rgba(18, 38, 83, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-img:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 35px rgba(18, 38, 83, 0.14);
+}
+
+.contact-card {
+    border: none;
+}
+
+.contact-card .card-body {
+    padding: 2rem;
+}
+
+.footer {
+    background-color: #1d3557;
+}
+
+@media (max-width: 767px) {
+    .hero-section {
+        min-height: 55vh;
+    }
+
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+}
